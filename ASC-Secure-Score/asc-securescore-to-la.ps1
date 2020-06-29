@@ -20,8 +20,8 @@ Param(
  [string]$omsSharedKey
 )
 
-$omsWorkspaceId = Get-AutomationVariable -Name 'LAWorkspaceId'
-$omsSharedKey = Get-AutomationVariable -Name 'LASharedKey'
+#$omsWorkspaceId = Get-AutomationVariable -Name 'LAWorkspaceId'
+#$omsSharedKey = Get-AutomationVariable -Name 'LASharedKey'
 
 
 $connectionName = "AzureRunAsConnection"
